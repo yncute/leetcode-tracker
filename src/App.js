@@ -1,4 +1,6 @@
 import "./App.css";
+import LoginButton from "./components/LoginButton";
+import LogoutButton from "./components/LogoutButton";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         >
           Learn React
         </a>
+        <LoginButton></LoginButton>
+        <LogoutButton></LogoutButton>
       </header>
     </div>
   );
